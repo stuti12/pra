@@ -3,7 +3,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:test_stuti/new_home/cubit/page_product_cubit.dart';
 import 'package:test_stuti/new_home/home_screen.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-void main() {
+void main() async{
+  // await Firebase.initializeApp(
+  //   options: DefaultFirebaseOptions.currentPlatform,
+  // );
   runApp(const MyApp());
 }
 
